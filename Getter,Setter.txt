@@ -1,0 +1,25 @@
+멤버변수의 데이터를 가져오는 메소드를 Getter
+멤버변수에 데이터를 할당하는 메소드를 Setter 라고한다
+
+ex)
+//Getter
+public String getTitle() {
+	return this.title;
+}
+
+//Setter
+public void setTitle(String tutor) {
+	this.title = title;
+}
+
+
+Course course = new Course();
+
+System.out.println(course.getTitle());
+
+course.setTitle("남병관"");
+
+System.out.println(course.getTitle());
+
+
+
